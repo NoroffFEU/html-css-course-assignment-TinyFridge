@@ -3,16 +3,19 @@
     padding: 0;
     font-family: sans-serif;
 }
+
 .header {
     max-height: 350px;
     width: 100%;
     background-position: center;
     background-color: white;
 }
+
 #Logo {
     width: 300px;
     padding: 2%;
 }
+
 .Icons {
     position: absolute;
     justify-content: space-between;
@@ -20,6 +23,7 @@
     top: 0;
     padding: 20px 30px;
 }
+
 .Nav {
     display: flex;
     padding: 2% 27%;
@@ -28,50 +32,74 @@
     font-size: 30px;
     max-width: 900px;
 }
+
+@media all and (max-width: 900px) {
+    .Nav {
+        list-style-type: none;
+        display: block;
+    }
+
+}
+
 .Nav ul a {
     color: black;
     text-decoration: none;
 }
+
 #Featured {
     padding: 3%;
     text-align: center;
     color: white;
     font-size: 50px;
 }
+
 .row1 {
     display: flex;
     justify-content: center;
     padding: 10px
 }
+
 .row1 img {
     width: 350px;
     height: 500px;
     padding: 20px;
 }
+
 #casablanca:hover, #low:hover, #macbeth:hover, #batman:hover, #avengers:hover, #gof:hover, #her:hover, #hypnotic:hover, #interstellar:hover {
     filter: brightness(0.2); 
     transition: ease-in-out 0.3s;
 }
+
 #trm {
     padding: 3%;
     text-align: center;
     color: white;
     font-size: 50px;
 }
+
 .row2 {
     display: flex;
     justify-content: space-evenly;
     padding-bottom: 7%;
 }
+
 .row2 img {
     width: 350px;
     height: 500px;
     padding: 20px;
 }
+
+@media all and (max-width: 700px) {
+    .row2 img {
+        display: block;
+    }
+
+}
 .row3 {
     display: flex;
     justify-content: space-evenly;
 }
+
 .footer {
     display: flex;
     justify-content: space-evenly;
@@ -81,6 +109,8 @@
     height: 300px;
     width: 100%;
 }
+
+
 .footer #fus {
     white-space: nowrap;
     padding-right: 10%;
@@ -88,40 +118,66 @@
     font-size: 37px;
     position: relative;
 }
+
+@media all and (max-width: 850px) {
+    .footer #fus, .socials img {
+        display: none;
+    }
+}
+
 .socials {
     display: flex;
     position: relative;
     padding-bottom: 30%;
     justify-content: space-evenly;
 }
-#twitter, #facebook, #insta, #reddit, #tiktok {
-    height: 40px;
-}
+
 #footerlogo {
     display: flex;
     width: 300px;
     height: auto;
 }
+
+@media all and (max-width: 900px) {
+    #footerlogo, .Cookies {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
 .Cookies #Cookies, #Terms {
     display: flex;
     opacity: 80%;
     padding: 1%;
 }
+
 .Cookies {
     display: flex;
     position: relative;
     justify-content: center;
     padding-top: 6%;
 }
+
 .info {
     padding-bottom: 7%;
 }
+
 .info2 {
     padding-bottom: 7%;
 }
+
+@media all and (max-width: 1050px) {
+    .info, .info2 {
+        display: none;
+        size: 0px;
+    }
+}
+
 .titles {
     color: white;
 }
+
 .genreimg img {
     width: 230px;
     height: 320px;
@@ -129,29 +185,31 @@
     padding-left: 6.3%;
     padding-bottom: 5%;
 }
+
+@media all and (max-width: 600px) {
+    .genreimg img {
+        width: 370px;
+        height: 500px;
+        padding-left: 12%;
+    }
+}
+
 #genretitle {
     width: 100%;
-    padding-left: 3%;
     padding-top: 5%;
     border-bottom: 1px solid white;
     font-size: 50px;
 }
+
+
 .pop img:hover, .thrill img:hover, .action img:hover, .end img:hover {
     filter:brightness(0.2);
     transition: ease-in-out 0.3s;
 }
-.rectangle {
-    width: 1000px;
-    height: 500px;
-    background: white;
-    margin-left: 23%; 
-    margin-top: 5%;
-    padding-bottom: 20%;
-}
-.rectangle #casa {
-    display: flex;
+
+
+#casatext {
     font-size: 50px;
-    padding-left: 37%;
-    padding-top: 4%;
+    color: white;
 }
 
