@@ -110,7 +110,6 @@
     width: 100%;
 }
 
-
 .footer #fus {
     white-space: nowrap;
     padding-right: 10%;
@@ -209,7 +208,22 @@
 
 
 #casatext {
+    display: flex;
     font-size: 50px;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2%;
+}
+
+.casaposter {
+    display: flex;
+    height: 450px;
+    margin-left: 30%;
+    margin-top: 3%;
+}
+
+.casadescription {
     color: white;
 }
 
