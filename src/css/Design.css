@@ -95,6 +95,7 @@
     }
 
 }
+
 .row3 {
     display: flex;
     justify-content: space-evenly;
@@ -221,9 +222,36 @@
     height: 450px;
     margin-left: 30%;
     margin-top: 3%;
+    color: white;
+    font-size: 20px;
 }
 
-.casadescription {
-    color: white;
+.casaposter span {
+    display: absolute;
+    text-align: center;
+    margin-left: 5%;
 }
+
+#casadescriptiontext {
+    display: flex;
+    color: white;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 3%;
+}
+
+#purchasebutton {
+    display: flex;
+    height: 50px;
+    width: 150px;
+    font-size: 20px;
+    margin-top: 26%;
+    margin-left: 40%;
+    justify-content: center;
+    align-items: center;
+}
+
+
 
