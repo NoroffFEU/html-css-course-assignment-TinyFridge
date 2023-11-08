@@ -107,7 +107,7 @@
     justify-content: space-evenly;
     align-items: center;
     background-color: white;
-    bottom: 0%;
+    margin-bottom: 0%;
     height: 300px;
     width: 100%;
 }
@@ -316,12 +316,14 @@
     height: 700px;
     margin-left: 28%;
     margin-top: 3%;
+    margin-bottom: 4%;
 }
 
 @media all and (max-width: 1800px) {
     .boxinfo {
         display: flex;
-        margin-left: 8%;        
+        margin-left: 8%;
+        height: 1400px;      
     }
 }
 
@@ -335,7 +337,7 @@
 @media all and (max-width: 1800px) {
     #casapay {
         display: flex;
-        top: 175%;
+        top: 120%;
         left: -14%;
     }
 }
@@ -389,6 +391,61 @@
     height: 700px;
 }
 
+#thankyou {
+    display: flex;
+    font-size: 50px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-top: 3%;
+}
+
+.thankyoubox {
+    display: block;
+    background-color: white;
+    height: 700px;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 3%;
+    margin-bottom: 4%;
+}
+
+@media all and (max-width: 700px) {
+    .thankyoubox {
+        height: 500px;
+    }
+}
+
+#happychose {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 50px;
+    padding-top: 10%;
+}
+
+#browsebutton {
+    display: flex;
+    height: 50px;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 42%;
+    margin-top: 20%;
+}
+
+@media all and (max-width: 700px) {
+    #browsebutton {
+        display: flex;
+        height: 50px;
+        font-size: 20px;
+        justify-content: center;
+        align-items: center;
+        margin-left: 20%;
+        margin-top: 5%;
+    }
+}
 
 
 
