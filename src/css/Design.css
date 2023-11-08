@@ -1,0 +1,686 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.header {
+    display: absolute;
+    max-height: 350px;
+    width: 100%;
+    background-position: center;
+    background-color: white;
+}
+
+#Logo {
+    width: 300px;
+    padding: 2%;
+}
+
+.Icons {
+    position: absolute;
+    justify-content: space-between;
+    right: 0;
+    top: 0;
+    padding: 20px 30px;
+}
+
+.Nav {
+    display: flex;
+    padding: 2% 27%;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 30px;
+    max-width: 900px;
+}
+
+@media all and (max-width: 900px) {
+    .Nav {
+        list-style-type: none;
+        display: block;
+    }
+
+}
+
+.Nav ul a {
+    color: black;
+    text-decoration: none;
+}
+
+#Featured {
+    padding: 3%;
+    text-align: center;
+    color: white;
+    font-size: 50px;
+}
+
+.row1 {
+    display: flex;
+    justify-content: center;
+    padding: 10px
+}
+
+.row1 img {
+    width: 350px;
+    height: 500px;
+    padding: 20px;
+}
+
+#casablanca:hover, #low:hover, #macbeth:hover, #batman:hover, #avengers:hover, #gof:hover, #her:hover, #hypnotic:hover, #interstellar:hover {
+    filter: brightness(0.2); 
+    transition: ease-in-out 0.3s;
+}
+
+#trm {
+    padding: 3%;
+    text-align: center;
+    color: white;
+    font-size: 50px;
+}
+
+.row2 {
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 7%;
+}
+
+.row2 img {
+    width: 350px;
+    height: 500px;
+    padding: 20px;
+}
+
+@media all and (max-width: 700px) {
+    .row2 img {
+        display: block;
+    }
+
+}
+
+.row3 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: white;
+    margin-bottom: 0%;
+    height: 300px;
+    width: 100%;
+}
+
+.footer #fus {
+    white-space: nowrap;
+    padding-right: 10%;
+    text-align: left;
+    font-size: 37px;
+    position: relative;
+}
+
+@media all and (max-width: 850px) {
+    .footer #fus, .socials img {
+        display: none;
+    }
+}
+
+.socials {
+    display: flex;
+    position: relative;
+    padding-bottom: 30%;
+    justify-content: space-evenly;
+}
+
+#footerlogo {
+    display: flex;
+    width: 300px;
+    height: auto;
+}
+
+@media all and (max-width: 900px) {
+    #footerlogo, .Cookies {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+.Cookies #Cookies, #Terms {
+    display: flex;
+    opacity: 80%;
+    padding: 1%;
+}
+
+.Cookies {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    padding-top: 6%;
+}
+
+.info {
+    padding-bottom: 7%;
+}
+
+.info2 {
+    padding-bottom: 7%;
+}
+
+@media all and (max-width: 1050px) {
+    .info, .info2 {
+        display: none;
+        size: 0px;
+    }
+}
+
+.titles {
+    color: white;
+}
+
+.genreimg img {
+    width: 230px;
+    height: 320px;
+    padding-top: 4%;
+    padding-left: 6.3%;
+    padding-bottom: 5%;
+}
+
+@media all and (max-width: 600px) {
+    .genreimg img {
+        width: 370px;
+        height: 500px;
+        padding-left: 12%;
+    }
+}
+
+#genretitle {
+    width: 100%;
+    padding-top: 5%;
+    border-bottom: 1px solid white;
+    font-size: 50px;
+}
+
+
+.pop img:hover, .thrill img:hover, .action img:hover, .end img:hover {
+    filter:brightness(0.2);
+    transition: ease-in-out 0.3s;
+}
+
+
+#casatext {
+    display: flex;
+    font-size: 50px;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2%;
+}
+
+@media all and (max-width:850px) {
+    #casatext {
+        margin-top: 10%;
+    }
+}
+
+.casaposter {
+    display: flex;
+    height: 450px;
+    margin-left: 30%;
+    margin-top: 3%;
+    color: white;
+    font-size: 20px;
+}
+
+@media all and (max-width: 850px) {
+    .casaposter, .casaposter img {
+        display: flex;
+        margin-top: 3%;
+        height: 600px;
+        margin-left: 4%;
+    }
+}
+
+.casaposter span {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-left: 5%;
+}
+
+@media all and (max-width: 1600px) {
+    .casaposter span {
+        display: none;
+    }
+}
+
+#casadescriptiontext {
+    display: flex;
+    color: white;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 2%;
+}
+
+@media all and (max-width: 850px) {
+    #casadescriptiontext {
+        margin-top: 10%;
+    }
+}
+
+#purchasebutton {
+    display: flex;
+    height: 50px;
+    width: 150px;
+    font-size: 20px;
+    margin-left: 64%;
+    justify-content: center;
+    align-items: center;
+}
+
+@media all and (max-width: 1000px) {
+    #purchasebutton {
+        display: flex;
+        margin-left: 38%;
+        margin-top: 10%;
+    }
+}
+
+.productbottom {
+    margin-bottom: 900px;
+}
+
+@media all and (max-width: 850px) {
+    .productbottom {
+        margin-bottom: 1100px;
+    }
+}
+
+#checkout {
+    display: flex;
+    color: white;
+    font-size: 50px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3%;
+}
+
+.boxinfo {
+    display: block;
+    border: 5px solid white;
+    background-color: white;
+    width: 400px;
+    height: 700px;
+    margin-left: 28%;
+    margin-top: 3%;
+    margin-bottom: 4%;
+}
+
+@media all and (max-width: 1800px) {
+    .boxinfo {
+        display: flex;
+        margin-left: 8%;
+        height: 1400px;      
+    }
+}
+
+@media all and (max-width: 1800px) {
+    .rectangleinfo {
+        display: b
+    }
+    
+}
+
+@media all and (max-width: 1800px) {
+    #casapay {
+        display: flex;
+        top: 120%;
+        left: -14%;
+    }
+}
+
+#contactinfo {
+    display: flex;
+    font-size: 30px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 2%;
+    border-bottom: 1px solid black;
+}
+
+.rectangleinfo li {
+    display: flex;
+    padding: 2%;
+}
+
+.inputtext {
+    display: flex;
+    width: 350px;
+    height: 50px;
+    font-size: 30px;
+}
+
+#payment {
+    display: flex;
+    font-size: 30px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 2%;
+    border-bottom: 1px solid black;
+}
+
+#paymentbutton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 50px;
+    margin-left: 30%;
+    margin-top: 7%;
+}
+
+#casapay {
+    position: absolute;
+    display: flex;
+    float: right;
+    margin-left: 23%;
+    width: 400px;
+    height: 700px;
+}
+
+#thankyou {
+    display: flex;
+    font-size: 50px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-top: 3%;
+}
+
+.thankyoubox {
+    display: block;
+    background-color: white;
+    height: 700px;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 3%;
+    margin-bottom: 4%;
+}
+
+@media all and (max-width: 700px) {
+    .thankyoubox {
+        height: 500px;
+    }
+}
+
+#happychose {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 50px;
+    padding-top: 10%;
+}
+
+#browsebutton {
+    display: flex;
+    height: 50px;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 42%;
+    margin-top: 20%;
+}
+
+@media all and (max-width: 700px) {
+    #browsebutton {
+        display: flex;
+        height: 50px;
+        font-size: 20px;
+        justify-content: center;
+        align-items: center;
+        margin-left: 20%;
+        margin-top: 5%;
+    }
+}
+
+.logobox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 4%;
+}
+
+#aboutlogo {
+    display: flex;
+    height: 200px;
+    margin-top: 3%;
+}
+
+@media all and (max-width: 670px) {
+    #aboutlogo {
+        height: 150px;
+    }
+}
+
+.aboutbox {
+    display: flex;
+    background-color: white;
+    margin-left: 20%;
+    margin-right: 20%;
+    height: 180px;
+    text-align: center;
+}
+
+.aboutbox p {
+    display: inline-block;
+    margin-top: 3%;
+    font-size: 20px;
+}
+
+@media all and (max-width: 800px) {
+    .aboutbox p {
+        font-size: 11px;
+    }
+}
+
+.lisabox {
+    display: flex;
+    height: 320px;
+    background-color: white;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.lisabox img {
+    display: flex;
+    position: absolute;
+    height: 200px;
+    margin-top: 6%;
+    left: 24.7%;
+}
+
+@media all and (max-width: 1400px) {
+    .lisabox img {
+        height: 250px;
+        margin-left: 8%;
+        margin-top: 10%;
+    }
+}
+
+#Lisa {
+    display: flex;
+    position: absolute;
+    font-size: 30px;
+    padding-left: 7%;
+    padding-top: 3%;
+}
+
+@media all and (max-width: 1400px) {
+    #Lisa {
+        display: flex;
+        margin-left: 18%;
+    }
+}
+
+.lisabox p {
+    display: flex;
+    position: absolute;
+    font-size: 20px;
+    text-align: left;
+    margin-left: 13%;
+    margin-top: 6%;
+    border-bottom: 2px solid black;
+}
+
+@media all and (max-width: 1400px) {
+    .lisabox p {
+        display: none;
+    }
+}
+
+.johnbox {
+    display: flex;
+    height: 320px;
+    background-color: white;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 4%;
+}
+
+.johnbox p {
+    display: flex;
+    position: absolute;
+    font-size: 20px;
+    text-align: left;
+    margin-left: 13%;
+    margin-top: 6%;
+    border-bottom: 2px solid black;
+}
+
+@media all and (max-width: 1400px) {
+    .johnbox p {
+        display: none;
+    }
+}
+
+#john {
+    display: flex;
+    position: absolute;
+    font-size: 30px;
+    padding-left: 7%;
+    padding-top: 3%;
+}
+
+@media all and (max-width: 1400px) {
+    #John {
+        display: flex;
+        
+    }
+}
+
+.johnbox img {
+    display: flex;
+    position: absolute;
+    height: 200px;
+    margin-top: 6%;
+    left: 24.7%;
+}
+
+@media all and (max-width: 1400px) {
+    .johnbox img {
+        height: 250px;
+        margin-left: 6%;
+        margin-top: 10%;
+    }
+}
+
+#questions {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 3%;
+}
+
+.questionbox {
+    display: flex;
+    background-color: white;
+    list-style-type: none;
+    height: 330px;
+    width: 900px;
+    margin-left: 27%;
+    margin-top: 3%;
+}
+
+@media all and (max-width: 1800px) {
+    .questionbox {
+        display: flex;
+        width: 465px;
+        margin-left: 10px;
+    }
+}
+
+.questionbox li {
+    display: table;
+}
+
+@media all and (max-width: 1800px) {
+    .questionbox li, #fq, #lq, #eq, #pq {
+        display: none;
+        left: 10%;
+    }
+}
+
+.questiontext {
+    display: flex;
+    justify-content: space-evenly;
+    height: 50px;
+    width: 250px;
+}
+
+#fq {
+    margin-top: 30%;
+    margin-left: 60%;
+}
+
+#lq {
+    margin-top: 30%;
+    margin-left: 100%;
+}
+
+#eq {
+    margin-top: 80%;
+    margin-left: ;
+}
+
+#pq {
+    position: absolute;
+    margin-top: 10.7%;
+    left: 35%;
+}
+
+.sendit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    width: 100px;
+    margin-top: 5%;
+    margin-left: 48%;
+    margin-bottom: 4%;
+}
+
+@media all and (max-width: 1800px) {
+    .sendit {
+        margin-left: 41%;
+    }
+}
