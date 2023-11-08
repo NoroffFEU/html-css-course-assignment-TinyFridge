@@ -5,6 +5,7 @@
 }
 
 .header {
+    display: absolute;
     max-height: 350px;
     width: 100%;
     background-position: center;
@@ -217,6 +218,12 @@
     margin-top: 2%;
 }
 
+@media all and (max-width:850px) {
+    #casatext {
+        margin-top: 10%;
+    }
+}
+
 .casaposter {
     display: flex;
     height: 450px;
@@ -226,10 +233,26 @@
     font-size: 20px;
 }
 
+@media all and (max-width: 850px) {
+    .casaposter, .casaposter img {
+        display: flex;
+        margin-top: 3%;
+        height: 600px;
+        margin-left: 4%;
+    }
+}
+
 .casaposter span {
-    display: absolute;
+    display: flex;
+    justify-content: center;
     text-align: center;
     margin-left: 5%;
+}
+
+@media all and (max-width: 1600px) {
+    .casaposter span {
+        display: none;
+    }
 }
 
 #casadescriptiontext {
@@ -239,7 +262,13 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin-top: 3%;
+    margin-top: 2%;
+}
+
+@media all and (max-width: 850px) {
+    #casadescriptiontext {
+        margin-top: 10%;
+    }
 }
 
 #purchasebutton {
@@ -247,14 +276,117 @@
     height: 50px;
     width: 150px;
     font-size: 20px;
-    margin-top: 26%;
-    margin-left: 40%;
+    margin-left: 64%;
     justify-content: center;
     align-items: center;
 }
 
+@media all and (max-width: 1000px) {
+    #purchasebutton {
+        display: flex;
+        margin-left: 38%;
+        margin-top: 10%;
+    }
+}
+
 .productbottom {
-    margin-bottom: 800px;
+    margin-bottom: 900px;
+}
+
+@media all and (max-width: 850px) {
+    .productbottom {
+        margin-bottom: 1100px;
+    }
+}
+
+#checkout {
+    display: flex;
+    color: white;
+    font-size: 50px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3%;
+}
+
+.boxinfo {
+    display: block;
+    border: 5px solid white;
+    background-color: white;
+    width: 400px;
+    height: 700px;
+    margin-left: 28%;
+    margin-top: 3%;
+}
+
+@media all and (max-width: 1800px) {
+    .boxinfo {
+        display: flex;
+        margin-left: 8%;        
+    }
+}
+
+@media all and (max-width: 1800px) {
+    .rectangleinfo {
+        display: b
+    }
+    
+}
+
+@media all and (max-width: 1800px) {
+    #casapay {
+        display: flex;
+        top: 175%;
+        left: -14%;
+    }
+}
+
+#contactinfo {
+    display: flex;
+    font-size: 30px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 2%;
+    border-bottom: 1px solid black;
+}
+
+.rectangleinfo li {
+    display: flex;
+    padding: 2%;
+}
+
+.inputtext {
+    display: flex;
+    width: 350px;
+    height: 50px;
+    font-size: 30px;
+}
+
+#payment {
+    display: flex;
+    font-size: 30px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 2%;
+    border-bottom: 1px solid black;
+}
+
+#paymentbutton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 50px;
+    margin-left: 30%;
+    margin-top: 7%;
+}
+
+#casapay {
+    position: absolute;
+    display: flex;
+    float: right;
+    margin-left: 23%;
+    width: 400px;
+    height: 700px;
 }
 
 
