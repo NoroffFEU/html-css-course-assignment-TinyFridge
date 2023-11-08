@@ -447,5 +447,240 @@
     }
 }
 
+.logobox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 4%;
+}
 
+#aboutlogo {
+    display: flex;
+    height: 200px;
+    margin-top: 3%;
+}
 
+@media all and (max-width: 670px) {
+    #aboutlogo {
+        height: 150px;
+    }
+}
+
+.aboutbox {
+    display: flex;
+    background-color: white;
+    margin-left: 20%;
+    margin-right: 20%;
+    height: 180px;
+    text-align: center;
+}
+
+.aboutbox p {
+    display: inline-block;
+    margin-top: 3%;
+    font-size: 20px;
+}
+
+@media all and (max-width: 800px) {
+    .aboutbox p {
+        font-size: 11px;
+    }
+}
+
+.lisabox {
+    display: flex;
+    height: 320px;
+    background-color: white;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.lisabox img {
+    display: flex;
+    position: absolute;
+    height: 200px;
+    margin-top: 6%;
+    left: 24.7%;
+}
+
+@media all and (max-width: 1400px) {
+    .lisabox img {
+        height: 250px;
+        margin-left: 8%;
+        margin-top: 10%;
+    }
+}
+
+#Lisa {
+    display: flex;
+    position: absolute;
+    font-size: 30px;
+    padding-left: 7%;
+    padding-top: 3%;
+}
+
+@media all and (max-width: 1400px) {
+    #Lisa {
+        display: flex;
+        margin-left: 18%;
+    }
+}
+
+.lisabox p {
+    display: flex;
+    position: absolute;
+    font-size: 20px;
+    text-align: left;
+    margin-left: 13%;
+    margin-top: 6%;
+    border-bottom: 2px solid black;
+}
+
+@media all and (max-width: 1400px) {
+    .lisabox p {
+        display: none;
+    }
+}
+
+.johnbox {
+    display: flex;
+    height: 320px;
+    background-color: white;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 4%;
+}
+
+.johnbox p {
+    display: flex;
+    position: absolute;
+    font-size: 20px;
+    text-align: left;
+    margin-left: 13%;
+    margin-top: 6%;
+    border-bottom: 2px solid black;
+}
+
+@media all and (max-width: 1400px) {
+    .johnbox p {
+        display: none;
+    }
+}
+
+#john {
+    display: flex;
+    position: absolute;
+    font-size: 30px;
+    padding-left: 7%;
+    padding-top: 3%;
+}
+
+@media all and (max-width: 1400px) {
+    #John {
+        display: flex;
+        
+    }
+}
+
+.johnbox img {
+    display: flex;
+    position: absolute;
+    height: 200px;
+    margin-top: 6%;
+    left: 24.7%;
+}
+
+@media all and (max-width: 1400px) {
+    .johnbox img {
+        height: 250px;
+        margin-left: 6%;
+        margin-top: 10%;
+    }
+}
+
+#questions {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 3%;
+}
+
+.questionbox {
+    display: flex;
+    background-color: white;
+    list-style-type: none;
+    height: 330px;
+    width: 900px;
+    margin-left: 27%;
+    margin-top: 3%;
+}
+
+@media all and (max-width: 1800px) {
+    .questionbox {
+        display: flex;
+        width: 465px;
+        margin-left: 10px;
+    }
+}
+
+.questionbox li {
+    display: table;
+}
+
+@media all and (max-width: 1800px) {
+    .questionbox li, #fq, #lq, #eq, #pq {
+        display: none;
+        left: 10%;
+    }
+}
+
+.questiontext {
+    display: flex;
+    justify-content: space-evenly;
+    height: 50px;
+    width: 250px;
+}
+
+#fq {
+    margin-top: 30%;
+    margin-left: 60%;
+}
+
+#lq {
+    margin-top: 30%;
+    margin-left: 100%;
+}
+
+#eq {
+    margin-top: 80%;
+    margin-left: ;
+}
+
+#pq {
+    position: absolute;
+    margin-top: 10.7%;
+    left: 35%;
+}
+
+.sendit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    width: 100px;
+    margin-top: 5%;
+    margin-left: 48%;
+    margin-bottom: 4%;
+}
+
+@media all and (max-width: 1800px) {
+    .sendit {
+        margin-left: 41%;
+    }
+}
